@@ -2,12 +2,16 @@ import React from "react";
 import Head from "next/head";
 import Link from "next/link";
 
+import Test from "./../components/Test";
+
 const Home = () => {
     return (
         <React.Fragment>
             <Head>
                 <title>Home - Nextron (with-javascript)</title>
             </Head>
+
+            <Test />
 
             <div>
                 <p>
